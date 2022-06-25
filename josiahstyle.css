@@ -1,0 +1,205 @@
+html{
+    background:#16316b;
+}
+.flag{
+    background: url("images/bg_flag.png") center 50px no-repeat;
+    height: 400px;
+    margin-left: 100px;
+}
+.nav_background {
+    background:url(images/bg_top.png) top repeat-x;
+    position: relative;
+    float: right;
+    width:1300px;
+    margin-top: -10px;
+    margin-left: -10px;
+    z-index: 3;
+}
+
+nav {
+    width:100%;
+    overflow:hidden;
+}
+
+#navbar {
+    float:left;
+    padding-left:2px;
+    background:url(images/menu_line.jpeg) 0 0 no-repeat;
+    margin-top:-0px;
+    margin-left:15%;
+}
+
+#navbar li {
+    float:left;
+    background:url(images/menu_line.jpeg) right top no-repeat;
+    padding-right:2px;
+    list-style: none;
+}
+#navbar li a{
+    display:block;
+    width:138px;
+    font:20px "Times New Roman", Times, serif;
+    line-height:78px;
+    text-decoration:none;
+    text-align:center;
+}
+#navbar li a:hover{
+    background: white;
+}
+
+a {
+    color:white;
+    text-decoration:underline;
+    outline:none;
+}
+a:hover {
+    text-decoration:none;
+    color:darkred;
+}
+.IN-POL{
+    color: white;
+    text-align: left;
+    padding-top: 150px; padding-left: 150px;
+    text-space: 80px;
+    /*height: 200px;*/
+    /*width: 100px;*/
+    /*float: bottom;*/
+}
+.IN-POL:hover{
+    color: darkred;
+}
+.card {
+    background: white;
+    border-radius: 20px 40px 20px 40px;
+    height: 500px;
+    width: 900px;
+    margin-top: 37px;
+    margin-left: 130px;
+}
+.phone{
+    float: right;
+   margin-top: -250px;
+    z-index: 3;
+    position: relative;
+}
+.main-p{
+    padding-top: 50px;
+    color: darkred;
+    font-size: 28px;
+    /*margin-bottom: -60px;*/
+}
+.caption-carrier{
+    padding-left: 40px;
+}
+.second-caption-carrier{
+    padding-left: 40px;
+    margin-top: -50px;
+    /*color: black;*/
+}
+.first-caption{
+    color: black;
+}
+
+.fifth-caption{
+    color: black;
+}
+
+.small-flag-text {
+    display: inline;
+    margin-left: 15px;
+    margin-top: -5px !important;
+    position: absolute; width: 420px;
+}
+/*.man{*/
+/*    float: left;*/
+/*}*/
+.first-caption{
+    display: block;
+
+}
+#boy-div{
+    float: left;
+    margin-left: 300px;
+    margin-top: -182px;
+    color: black;
+}
+.boy-div2{
+    color: black;
+}
+
+#fine-man-div{
+    float: right;
+    margin-top: -182px;
+    margin-left: 100px;
+}
+/*.third-caption{*/
+/*    margin-top: 200px;*/
+.over-fund-leader{
+    display: block;
+}
+.over-fund-lead{
+    clear:both;
+    /*display: inline;*/
+    float: left;
+    color: white;
+    padding-right: 50px;
+}
+.divider{
+    background: url("images/line_ver2.gif") right repeat-y;
+}
+.second-cap-images{
+    height: 120px;
+    width: 150px;
+}
+.second-cap-section{
+    margin-bottom: 20px;
+}
+.third-caption{
+    margin-left: 180px;
+
+}
+.list-section{
+    /*display: inline;*/
+    float: left;
+    margin-left: 120px;
+}
+.list-one{
+    list-style-image: url("images/marker_1.gif");
+}
+p{
+    font-size: 12px;
+    color: white;
+}
+
+.fourth-caption{
+    display: inline;
+    position: relative;
+    color: white;
+}
+.fourth-cap-text{
+    color: lightgray;
+}
+.fourth-cap-list{
+    font-size: 13px;
+}
+footer{
+    clear:both;
+    background: url("images/bg_footer.jpeg") top repeat-x;
+    height: 50px;
+    padding-top: 25px;
+    color: white;
+    font-size: 12px;
+}
+.foot{
+    margin-left: 280px;
+}
+.foot2{
+   margin-left: 410px;
+}
+.grey{
+    color: lightgray;
+}
+h1{
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+}
